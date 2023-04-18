@@ -1,0 +1,98 @@
+
+
+body {
+  margin-top: 200px; 
+}
+.login {
+    width: 400px;
+    margin:16px auto;
+    font-size: 16px;
+}
+.loginheader,
+.login p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.login-tringli {
+    width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: blueviolet;
+}
+.login-header {
+    width: 400px;
+    background: rebeccapurple;
+    padding: 20px;
+    font-size: 1,4em;
+    font-weight:normal;
+    text-align:center;
+    text-transform: uppercase;
+    color: rgb(231, 231, 231) ;
+}
+.login-conteiner {
+    width: 400px;
+    background-color: rgb(181, 181, 181);
+    padding: 12px; 
+    background:#fff;
+    border: rebeccapurple solid 5px;
+}
+.login p {
+    padding: 12px;
+}
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0px;
+    font-family:inherit;
+    font-size:95em;
+}
+.login input[ type='email']:focus,
+.login input [type='password']:focus {
+    border-color:#888 ;
+}
+.login input[ type='submit']{
+    background: rebeccapurple;
+    border-color: transparent;
+    color:#fff;
+    cursor: pointer;
+}
+.poto {
+    margin-left: -250px;
+    padding-top: 20px;
+   
+}
+.log-in {
+    margin-left: 525px;
+    }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+
+
+
+@media (max-width: 767px) {
+    body {
+        margin-top: 50px;
+        
+    }
+    .log-in {
+        width: 300px;
+        display: flex;
+       flex-direction: column;
+       margin-left: -00px;
+    }
+    .poto {
+        width: 400px;
+        margin-left: 00px;
+    }
+}
